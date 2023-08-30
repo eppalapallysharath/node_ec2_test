@@ -7,8 +7,7 @@ const server = http.createServer((req, res) => {
 });
 
 const port = 80;
-const host = "0.0.0.0";
 // Listen on port 3000
-server.listen(port, host, () => {
+server.listen(port, () => {
   console.log(`Server is started ${port}`);
 });
